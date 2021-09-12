@@ -1,4 +1,4 @@
-package com.example.digitalstopwatch;
+package com.example.digitalWatch;
 
 import android.content.Context;
 

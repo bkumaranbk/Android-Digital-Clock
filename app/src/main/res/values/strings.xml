@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DigitalStopWatch</string>
+    <string name="about_me">"Im Kumaran, Im undergraduate student at university of kelaniya srilanka, This is my first android application about Digital clock, And this the mini project under my Mobile application development"</string>
 </resources>

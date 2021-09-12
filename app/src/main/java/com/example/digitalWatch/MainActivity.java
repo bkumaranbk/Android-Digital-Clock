@@ -1,9 +1,11 @@
-package com.example.digitalstopwatch;
+package com.example.digitalWatch;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextClock;
 
@@ -28,5 +30,10 @@ public class MainActivity extends AppCompatActivity {
         textampm.setTypeface(myfont);
         textdate.setTypeface(myfont);
 
+    }
+
+    public void switchActivity(View view) {
+        Intent intent = new Intent(this, secondActivity.class);
+        startActivity(intent);
     }
 }

@@ -4,6 +4,6 @@
     <dimen name="textSize_ampm">20sp</dimen>
     <dimen name="layout_marginTop">20dp</dimen>
     <dimen name="textSize_date">20sp</dimen>
-    <dimen name="textSize_clock">120sp</dimen>
+    <dimen name="textSize_clock">90sp</dimen>
 
 </resources>
